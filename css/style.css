@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color:whitesmoke;
+    font-family: "Rock Salt", cursive;
+    text-align: center;
+}
+
+.background {
+    background-color: snow;
+}
+
+.tagline {
+    font-family: "Quicksand", sans-serif;
+    color: lightslategray;
+    line-height: 125px;
+}
+
+/* Header */
+
+h1 {
+    margin: 0;
+    background-color: skyblue;
+    color: khaki;
+    line-height: 100px;
+}
+
+/* To Do Box */
+
+.container {
+    display: flex;
+    border: 2px solid snow;
+}
+
+.week {
+    display: inline-flex;
+    flex-direction: column;
+    flex-grow: 3
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    min-height: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.day.square {
+    background-color: skyblue;
+    border: 1px solid skyblue;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    width: 125px;
+    padding: 10px;
+}
+
+.task.square {
+    background-color: khaki;
+    border: 1px solid khaki;
+}
+
+.task.square p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.reminder {
+    display: inline-flex;
+    flex-grow: 2;
+    background-color: khaki;
+}
+
+.reminder h3 {
+    width: 100%;
+    margin: 10px;
+    color: black;
+    font-size: 24px;
+    line-height: 90px;
+}
